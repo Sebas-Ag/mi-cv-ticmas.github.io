@@ -1,0 +1,69 @@
+html {
+    font-size: 16px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura. */
+    font-family: "Oswald", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts. */
+    background-image: url("image/fondo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
+
+     }
+    .titulo { 
+              color: rgb(0, 0, 0); 
+              font-size: 45px;
+              text-align: center;
+              padding: 12px 0;
+              margin: 0;
+    }
+    body {
+        width: 600px;
+        margin: 0 auto;
+        backdrop-filter: blur(15px);
+        padding: 0 20px 20px 20px;
+        border: 3px solid black;
+        border-radius: 40px;
+        background: transparent;
+    
+        
+    }
+        img {  
+            display: block;
+            margin-left: auto;
+            margin-right: auto;         
+            width: 148px;
+            height: 148px;
+         
+    }
+    
+        #navegador ul{
+            list-style-type: none;
+            text-align: center;
+         }
+         #navegador li{
+            display: inline;
+            text-align: center;
+            margin: 0 10px 0 0;
+         }
+         #navegador li a {
+            padding: 2px 7px 2px 7px;
+            color: #060606;
+            background-color: #eeeeee;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            border-radius: 8px;
+            background: transparent;
+            backdrop-filter: blur(15px);
+         }
+         #navegador li a:hover{
+            background-color: #333333;
+            color: #ffffff;
+         }
+
+         .subtitulos {
+            text-align: center;
+
+         }
+         .listado {
+            text-align: justify;
+         }
