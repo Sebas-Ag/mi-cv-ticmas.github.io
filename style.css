@@ -64,6 +64,32 @@ html {
             text-align: center;
 
          }
-         .listado {
+         ul {
             text-align: justify;
+            max-height: 97px;
+            overflow: hidden;
+            transition: max-height 1s;
+         }
+
+         ul.abierto {
+            max-height: 997px;
+         }
+
+         .listado-2 {
+            text-align: justify;
+         }
+         button {
+            padding: 2px 7px 2px 7px;
+            color: #060606;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            border-radius: 8px;
+            background: transparent;
+            backdrop-filter: blur(15px);
+         }
+
+         button:hover {
+            cursor: pointer;
+            background-color: #333333;
+            color: #ffffff;
          }
