@@ -1,5 +1,5 @@
 
-const ul = document.querySelector("#listado-1");
+const contenido = document.querySelector("#listado-1");
 const button = document.querySelector("button")
 
 let miImage = document.querySelector('img');
@@ -21,12 +21,12 @@ miImage.onclick = function () {
 
 
 function mostrarMas(){
-  if (ul.className === "abierto") {
-    ul.className = "";
+  if (contenido.className === "abierto") {
+    contenido.className = "";
     button.textContent = "Mostrar más"
   }
   else {
-    ul.className = "abierto";
+    contenido.className = "abierto";
     button.textContent = "Mostrar menos"
   }
 }

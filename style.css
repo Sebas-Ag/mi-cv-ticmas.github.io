@@ -64,14 +64,14 @@ html {
             text-align: center;
 
          }
-         ul {
+         #listado-1 {
             text-align: justify;
             max-height: 97px;
             overflow: hidden;
             transition: max-height 1s;
          }
 
-         ul.abierto {
+         #listado-1.abierto {
             max-height: 997px;
          }
 
